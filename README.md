@@ -21,7 +21,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, EJS  
+- **Frontend:** HTML, CSS, JavaScript, EJS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB with Mongoose  
 - **Authentication:** Passport.js (Local Strategy)  
@@ -35,14 +35,14 @@
 TripCasa/
 │
 ├── models/ # Mongoose models<br>
-├── routes/ # Route handlers
-├── views/ # EJS templates
-├── public/ # Static files (CSS, JS)
-├── controllers/ # Controller functions (MVC)
-├── middleware/ # Custom middleware functions
-├── utils/ # Utility functions (e.g., for cloudinary config)
-├── app.js # Entry point
-└── .env # Environment variables (not committed)
+├── routes/ # Route handlers<br>
+├── views/ # EJS templates<br>
+├── public/ # Static files (CSS, JS)<br>
+├── controllers/ # Controller functions (MVC)<br>
+├── middleware/ # Custom middleware functions<br>
+├── utils/ # Utility functions (e.g., for cloudinary config)<br>
+├── app.js # Entry point<br>
+└── .env # Environment variables (not committed)<br>
 
 👥 Contributors
 Anikesh Sharma
