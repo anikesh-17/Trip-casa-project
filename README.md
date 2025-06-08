@@ -32,8 +32,8 @@
 
 ## 📁 Project Structure
 
-TripCasa/
-│
+TripCasa/<br>
+│<br>
 ├── models/ # Mongoose models<br>
 ├── routes/ # Route handlers<br>
 ├── views/ # EJS templates<br>
