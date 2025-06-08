@@ -44,6 +44,4 @@ TripCasa/<br>
 ├── app.js # Entry point<br>
 └── .env # Environment variables (not committed)<br>
 
-👥 Contributors
-Anikesh Sharma
 
