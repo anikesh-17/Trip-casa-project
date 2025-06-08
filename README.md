@@ -34,7 +34,7 @@
 
 TripCasa/
 │
-├── models/ # Mongoose models
+├── models/ # Mongoose models<br>
 ├── routes/ # Route handlers
 ├── views/ # EJS templates
 ├── public/ # Static files (CSS, JS)
