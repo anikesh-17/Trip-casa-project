@@ -1,47 +1,65 @@
 # 🏡 TripCasa
 
-**TripCasa** is a fullstack hotel and house booking platform inspired by Airbnb. Built using the **MVC architecture**, this application allows users to explore listings, book accommodations, manage their accounts, and more.
+**TripCasa** is an end-to-end full-stack web application that allows users to list, rent, and review properties—similar to Airbnb. This project is designed to help both property owners and travelers connect seamlessly.
 
-🌐 **Live Site:** [https://tripcasa.onrender.com/listings](https://tripcasa.onrender.com/listings)
+🌐 **Live Demo:** [tripcasa.onrender.com/listings](https://tripcasa.onrender.com/listings)
 
+---
 
-## ✨ Features
+## 📌 Features
 
-- 🔐 User authentication with sessions and Passport.js  
-- 🏘️ Create, read, update, and delete property listings  
-- 📷 Image upload support with Cloudinary and Multer  
-- ✅ Form validation with Joi  
-- 💬 Flash messages for user feedback  
-- 🌍 MongoDB for data storage (via Mongoose)  
-- 📦 Environment variable support with dotenv  
-- 💻 Server-side templating with EJS and EJS-Mate  
-- 🔄 Method override for supporting PUT and DELETE in forms
+- 🏘️ Create, edit, and delete your property listings
+- 🧾 Add, edit, and delete **reviews/opinions** on listings
+- 🔐 User **authentication** (Login / Signup)
+- ✅ **Validations** using Joi to prevent invalid inputs
+- 💾 Full **CRUD functionality** on listings and reviews
+- 🌍 Deployed using **Render (Free Hosting)**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript, EJS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB with Mongoose  
-- **Authentication:** Passport.js (Local Strategy)  
-- **File Uploads:** Multer + Cloudinary  
-- **Validation:** Joi
+### 🧩 Frontend
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **EJS** (Templating Engine)
+
+### 🔧 Backend
+- **Node.js**
+- **Express.js**
+
+### 🗃️ Database
+- **MongoDB**
+- **Mongoose**
+
+### 🔐 Authentication & Sessions
+- **Passport.js**
+- **Passport-Local-Mongoose**
+- **Express-Session**
+- **Cookies**
+
+### 🧰 Utilities
+- **Multer** – file uploads  
+- **Cloudinary** – image storage  
+- **Joi** – data validation  
+- **Method-Override** – for HTTP verbs like PUT & DELETE  
+- **Connect-Flash** – flash messages  
 
 ---
 
-## 📁 Project Structure
+## 🚀 Deployment
 
-TripCasa/<br>
-│<br>
-├── models/ # Mongoose models<br>
-├── routes/ # Route handlers<br>
-├── views/ # EJS templates<br>
-├── public/ # Static files (CSS, JS)<br>
-├── controllers/ # Controller functions (MVC)<br>
-├── middleware/ # Custom middleware functions<br>
-├── utils/ # Utility functions (e.g., for cloudinary config)<br>
-├── app.js # Entry point<br>
-└── .env # Environment variables (not committed)<br>
+TripCasa is deployed on **Render** and can be accessed here:  
+🔗 [https://tripcasa.onrender.com/listings](https://tripcasa.onrender.com/listings)
 
+---
 
+## 📚 What I Learned
+
+- Middleware flow in Express
+- Session management using cookies
+- How authentication works with Passport.js
+- RESTful routing and MVC structure
+- Image handling and cloud storage
+- Real-world deployment on Render
